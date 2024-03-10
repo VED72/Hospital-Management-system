@@ -30,7 +30,6 @@ function Copyright(props) {
     return (
         <Typography variant="body2" color="text.secondary" align="center" {...props}>
             {'Developed with 🖤 by '}
-            <strong><a className='text-style' href="#" target="_blank" rel="noreferrer noopener">bastolaronak</a> </strong>{'Copyright ©'}
             {new Date().getFullYear()}
             {'.'}
         </Typography>
@@ -58,7 +57,7 @@ const Footer = () => {
                                             color='primary'
                                             fontSize='large' />
                                     </Avatar>
-                                    Health Haven Hospital
+                                    Lata Mangeshkar Hospital
                                 </Typography>
                                 <Divider />
                             </Box>
@@ -69,7 +68,7 @@ const Footer = () => {
                                 spacing={1} >
                                 <Avatar sx={{ mt: 1, bgcolor: pink[500] }}>
                                     <LocationOnIcon />
-                                </Avatar><span>kathmandu ,Nepal</span>
+                                </Avatar><span>Nagpur, India</span>
                             </Stack >
 
                             <Stack direction="row"
@@ -79,8 +78,8 @@ const Footer = () => {
                                 <Avatar sx={{ mb: 1, mt: 1, bgcolor: pink[500] }}>
                                     <EmailIcon />
                                 </Avatar>
-                                <a className='text-style' href="mailto:bastolaronak12@gmail.com">
-                                bastolaronak12@gmail.com
+                                <a className='text-style' href="abc@gmail.com">
+                                abc@gmail.com
                                 </a>
                             </Stack >
 
@@ -92,7 +91,7 @@ const Footer = () => {
                                     <CallIcon />
                                 </Avatar>
                                 <a className='text-style' href="tel:01680xxx86">
-                                +977-9862164447
+                                +919287372847
                                 </a>
                             </Stack >
 
